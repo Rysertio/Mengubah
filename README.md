@@ -31,8 +31,13 @@ For MSVC and other build chains that don't have a package manager that can insta
 
 Building
 ==========
+First, you need to download the repositories submodules.
+```
+git submodule --update --init
+```
 Like all CMake Projects, it's recommended to create a build directory to store the resulting build tree.
 ```
+
 mkdir build
 cd build
 ```
